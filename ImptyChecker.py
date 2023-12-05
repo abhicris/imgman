@@ -11,6 +11,6 @@ def is_image_empty(image_path):
     return bbox is None
 
 # Example usage
-image_path = 'images/Tesla/Tesla_05.png'
+image_path = 'replace with your image path'
 result = is_image_empty(image_path)
 print('Is the image empty?', result)
