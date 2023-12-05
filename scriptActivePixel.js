@@ -1,7 +1,7 @@
 // Assuming you have already loaded the PSD.js library and have access to the parsed PSD object
 // psd is the parsed PSD object
 var PSD = require('psd');
-var psd = PSD.fromFile("Untitled_Artwork-0-0.psd");
+var psd = PSD.fromFile("yourfilepath.psd");
 psd.parse();
 
 // Traverse through the layers to find layers with active pixels
