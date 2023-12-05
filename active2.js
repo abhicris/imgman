@@ -4,7 +4,7 @@
 // Function to recursively iterate through layers and find layers with active pixels
 
 var PSD = require('psd');
-var psd = PSD.fromFile("Untitled_Artwork-0-0.psd");
+var psd = PSD.fromFile("filename.psd  replace with your file");
 psd.parse();
 // Assuming you have already loaded the PSD.js library and have access to the parsed PSD object
 // psd is the parsed PSD object
