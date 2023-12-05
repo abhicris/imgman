@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 # Load the PNG file
-png_file_path = 'filepath.png'
+png_file_path = 'yourfilepath.png'
 if not os.path.exists(png_file_path):
     raise FileNotFoundError(f"The file '{png_file_path}' does not exist.")
 
